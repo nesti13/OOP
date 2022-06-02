@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<ITLab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Computers>
+    <Computer>
+      <ComputerType>Ноутбук</ComputerType>
+      <Proc>
+        <ProcName>16</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>hfh</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>16</SizeOZU>
+      <TypeOZU>DDR3</TypeOZU>
+      <SizeHD>16</SizeHD>
+      <TypeHD>SSD</TypeHD>
+      <Date>2022-03-03T16:46:41</Date>
+      <Price>6791</Price>
+    </Computer>
+    <Computer>
+      <ComputerType>Сервер</ComputerType>
+      <Proc>
+        <ProcName>64</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>mjg</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>4</SizeOZU>
+      <TypeOZU>DDR3</TypeOZU>
+      <SizeHD>64</SizeHD>
+      <TypeHD>HDD</TypeHD>
+      <Date>2022-03-02T16:46:41</Date>
+      <Price>3815</Price>
+    </Computer>
+    <Computer>
+      <ComputerType>Стационарный компьютер</ComputerType>
+      <Proc>
+        <ProcName>128</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>kmgl</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>16</SizeOZU>
+      <TypeOZU>DDR3</TypeOZU>
+      <SizeHD>512</SizeHD>
+      <TypeHD>SSD</TypeHD>
+      <Date>2022-03-01T16:46:41</Date>
+      <Price>5838</Price>
+    </Computer>
+    <Computer>
+      <ComputerType>Сервер</ComputerType>
+      <Proc>
+        <ProcName>efge</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>odks</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>16</SizeOZU>
+      <TypeOZU>DDR3</TypeOZU>
+      <SizeHD>1024</SizeHD>
+      <TypeHD>HDD</TypeHD>
+      <Date>2022-03-11T16:46:41</Date>
+      <Price>3676</Price>
+    </Computer>
+    <Computer>
+      <ComputerType>Рабочая станция</ComputerType>
+      <Proc>
+        <ProcName>qow</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>sod</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>4</SizeOZU>
+      <TypeOZU>DDR3</TypeOZU>
+      <SizeHD>4</SizeHD>
+      <TypeHD>HDD</TypeHD>
+      <Date>2022-03-11T16:46:41</Date>
+      <Price>3854</Price>
+    </Computer>
+    <Computer>
+      <ComputerType>Стационарный компьютер</ComputerType>
+      <Proc>
+        <ProcName>ode</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>fkd</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>16</SizeOZU>
+      <TypeOZU>DDR4</TypeOZU>
+      <SizeHD>64</SizeHD>
+      <TypeHD>SSD</TypeHD>
+      <Date>2022-03-11T16:46:41</Date>
+      <Price>5313</Price>
+    </Computer>
+    <Computer>
+      <ComputerType>Ноутбук</ComputerType>
+      <Proc>
+        <ProcName>oirer</ProcName>
+        <ProcCount>1</ProcCount>
+      </Proc>
+      <Video>
+        <VideoName>djw</VideoName>
+        <VideoMemory>1 ГБ</VideoMemory>
+        <DirectX>v. 9</DirectX>
+      </Video>
+      <SizeOZU>4</SizeOZU>
+      <TypeOZU>DDR3</TypeOZU>
+      <SizeHD>128</SizeHD>
+      <TypeHD>SSD</TypeHD>
+      <Date>2022-03-11T16:46:41</Date>
+      <Price>5617</Price>
+    </Computer>
+  </Computers>
+  <Proc>
+    <ProcCount>0</ProcCount>
+  </Proc>
+  <Video />
+</ITLab>
