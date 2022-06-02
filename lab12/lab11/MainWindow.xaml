@@ -1,0 +1,57 @@
+﻿<Window x:Class="lab11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="1487">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="92*"/>
+            <RowDefinition Height="29*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="759*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="Masters" AutoGenerateColumns="False" IsReadOnly="True" Grid.ColumnSpan="2" SelectionChanged="Masters_SelectionChanged" Grid.RowSpan="1" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id_master}" Width="*" Header="ID мастера" />
+                <DataGridTextColumn Binding="{Binding surname}" Width="*" Header="Фамилия" />
+                <DataGridTextColumn Binding="{Binding name}" Width="*" Header="Имя" />
+                <DataGridTextColumn Binding="{Binding education}" Width="*" Header="Образование" />
+                <DataGridTextColumn Binding="{Binding qualification}" Width="*" Header="Квалификация" />
+                <DataGridTextColumn Binding="{Binding work_expirience}" Width="*" Header="Опыт работы" />
+                <DataGridTextColumn Binding="{Binding id_procedure}" Width="*" Header="ID процедуры" />
+                <DataGridTemplateColumn Width="*" Header="Фото">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Image MinWidth="100" MinHeight="100" Source="{Binding photo}"></Image>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Редактировать" Name="BinEdit" Click="BinEdit_Click"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="60,368,0,0" Orientation="Horizontal" Grid.RowSpan="2" Width="1366">
+            <Button Content="Добавить" x:Name="BtnAdd" Click="BtnAdd_Click" Width="195" Height="50"/>
+            <Button Content="Удалить" x:Name="BtnDelete" Click="BtnDelete_Click" Width="195" Height="50"/>
+            <TextBox x:Name="First" RenderTransformOrigin="0.437,0.54" Width="195" Height="50"/>
+            <Button Content="Поиск по имени" x:Name="BtnSQL" Click="BtnSQL_Click" Height="50" Width="195"/>
+            <TextBox x:Name="Second" Text="Имя" Width="195" Height="50"/>
+            <TextBox x:Name="TRID" Text="Специализация" Width="195" Height="50"/>
+            <Button Content="Поиск по имени и специализации" x:Name="BtnSQL2" Click="BtnSQL2_Click" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="195"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
